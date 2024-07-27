@@ -33,6 +33,7 @@ git clone https://github.com/SunilS97/zapid-food-delivery.git
 cd zapid-food-delivery
 
 ### Setup Environment Variables
+
 Create a .env file in the root directory of the frontend, backend, and admin folders with the following variables:
 
 MONGO_DB_URL=your_mongodb_url
@@ -92,8 +93,11 @@ This will start the admin panel on http://localhost:3001.
 **Frontend**
 
 npm run dev: Start the development server
+
 npm run build: Build the application for production
+
 npm run lint: Lint the codebase
+
 npm run preview: Preview the production build
 
 **Backend**
@@ -103,8 +107,11 @@ npm run server: Start the backend server with nodemon
 **Admin Panel**
 
 npm run dev: Start the development server
+
 npm run build: Build the application for production
+
 npm run lint: Lint the codebase
+
 npm run preview: Preview the production build
 
 ### License
